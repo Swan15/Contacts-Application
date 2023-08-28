@@ -11,7 +11,7 @@ export default async function Home() {
   }) : []
   
   return (
-    <main className="overflow-hidden bg-[#F1F0E8]">
+    <main className="overflow-hidden bg-[#CACCE]">
       {
         data.length > 0 ? (
           <ContactsView contacts={data}/>
