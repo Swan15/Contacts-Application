@@ -2,7 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, install the dependencies:
+First, replace the example environment variables with yours:
+For this project we only require a Mapbox key
+
+Second, install the dependencies:
 ```bash
 npm install
 # or

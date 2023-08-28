@@ -4,9 +4,7 @@ import { MutableRefObject, useEffect, useRef, useState } from 'react'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 // Temporary access token
-mapboxgl.accessToken =
-	'pk.eyJ1IjoiYWxleHNub3dudXQiLCJhIjoiY2xsdjFiNzU2MXUyNDNlcHBheWV0bm1meiJ9.B20YQgiZ3V1Ikgb5t796og'
-
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOXKEY || ''
 interface Props {
 	lng: number
 	lat: number
